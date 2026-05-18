@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f43f5e; /* Premium Rose/Pink Tinder-like color */
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #f1f5f9;
+  --color-secondary-foreground: #0f172a;
+  --color-card: #ffffff;
+  --color-card-foreground: #0f172a;
+  --color-muted: #f8fafc;
+  --color-muted-foreground: #64748b;
+  --color-border: #e2e8f0;
+  
+  --shadow-soft: 0 8px 30px rgba(0, 0, 0, 0.03), 0 2px 8px rgba(0, 0, 0, 0.02);
+  --shadow-card: 0 20px 40px -10px rgba(0, 0, 0, 0.07), 0 5px 15px -3px rgba(0, 0, 0, 0.03);
+  --shadow-glow: 0 0 25px rgba(244, 63, 94, 0.35);
+
+  --font-sans: "Outfit", "Inter", system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50/50 text-slate-800 antialiased min-h-screen;
+    font-family: var(--font-sans);
+    background-image: 
+      radial-gradient(at 0% 0%, hsla(343, 100%, 98%, 1) 0px, transparent 50%), 
+      radial-gradient(at 50% 0%, hsla(242, 80%, 98%, 1) 0px, transparent 50%), 
+      radial-gradient(at 100% 0%, hsla(271, 100%, 98%, 1) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+}
+
+/* Scrollbar styling for dynamic lists */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Skeleton animation */
+@keyframes pulse-fast {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.4; }
+}
+
+.animate-pulse-fast {
+  animation: pulse-fast 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Aspect ratio helpers if not defined */
+.aspect-4\/5 {
+  aspect-ratio: 4 / 5;
+}

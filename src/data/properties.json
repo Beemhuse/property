@@ -1,0 +1,162 @@
+[
+  {
+    "id": "space-1",
+    "title": "Modern Studio Apartment near UNN",
+    "price": 140,
+    "area": "Nsukka Campus",
+    "type": "Entire Studio Flat",
+    "description": "Newly renovated studio apartment located just 5 minutes walk from the university main gate. Features a private kitchen, constant water supply, separate electric meter, and a very quiet study environment.",
+    "photos": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["WiFi", "AC", "Power Backup", "Study Desk", "Water Supply"],
+    "isPublished": true,
+    "roommatePrefs": ["Any", "Male", "Female"],
+    "owner": {
+      "name": "Kelechi Okafor",
+      "gender": "Male",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80",
+      "phone": "+234 812 345 6789",
+      "occupation": "Final Year Computer Science"
+    },
+    "matchScore": 98
+  },
+  {
+    "id": "space-2",
+    "title": "Premium 2-Bedroom Shared Flat",
+    "price": 180,
+    "area": "Enugu Campus",
+    "type": "Private Room in Shared Flat",
+    "description": "Looking for a clean and quiet roommate to share a luxury 2-bedroom flat. The room is fully furnished with a wardrobe, bed, and fan. The living room has an active Netflix subscription and stable power.",
+    "photos": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["WiFi", "Power Backup", "Netflix", "Balcony", "Parking"],
+    "isPublished": true,
+    "roommatePrefs": ["Female"],
+    "owner": {
+      "name": "Amina Bello",
+      "gender": "Female",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80",
+      "phone": "+234 905 555 1234",
+      "occupation": "Medical Student"
+    },
+    "matchScore": 92
+  },
+  {
+    "id": "space-3",
+    "title": "Cozy Hostel Single Room",
+    "price": 95,
+    "area": "Lagos Campus",
+    "type": "Single Hostel Room",
+    "description": "Affordable and cozy single room in a reputable private student hostel. Rent is highly subsidized. Gated environment with 24/7 security patrol. Perfect for focused students.",
+    "photos": [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1582719508461-905c673771fd?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Security", "Water Supply", "Study Desk", "Gym"],
+    "isPublished": true,
+    "roommatePrefs": ["Any"],
+    "owner": {
+      "name": "Tobi Adebayo",
+      "gender": "Male",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80",
+      "phone": "+234 703 999 8888",
+      "occupation": "Law Student"
+    },
+    "matchScore": 87
+  },
+  {
+    "id": "space-4",
+    "title": "Spacious Shared Room in duplex",
+    "price": 110,
+    "area": "Ibadan Campus",
+    "type": "Shared Duplex Bedspace",
+    "description": "One bedspace available in a very massive master bedroom shared with another quiet, friendly engineering student. Very clean compound with a beautiful garden, water heater, and large kitchen space.",
+    "photos": [
+      "https://images.unsplash.com/photo-1536376072261-38c75010e6c9?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Water Heater", "Large Kitchen", "Garden", "WiFi", "Security"],
+    "isPublished": true,
+    "roommatePrefs": ["Male"],
+    "owner": {
+      "name": "Emeka Nwachukwu",
+      "gender": "Male",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80",
+      "phone": "+234 815 111 2222",
+      "occupation": "Mechanical Engineering"
+    },
+    "matchScore": 85
+  },
+  {
+    "id": "space-5",
+    "title": "Elegant Apartment with Balcony View",
+    "price": 220,
+    "area": "Abuja Campus",
+    "type": "Entire 1-Bedroom Flat",
+    "description": "Stunning luxury 1-bedroom flat close to the federal university. Enjoy clean, treated running water, high-speed fibre internet, full security gates, swimming pool access, and an ultra-modern kitchen setup.",
+    "photos": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["WiFi", "AC", "Power Backup", "Pool", "Gym", "Security"],
+    "isPublished": true,
+    "roommatePrefs": ["Any", "Female"],
+    "owner": {
+      "name": "Zainab Yusuf",
+      "gender": "Female",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80",
+      "phone": "+234 809 444 3333",
+      "occupation": "Economics Graduate"
+    },
+    "matchScore": 94
+  },
+  {
+    "id": "space-6",
+    "title": "Clean Budget Double Room",
+    "price": 80,
+    "area": "Nsukka Campus",
+    "type": "Shared Room in Hostel",
+    "description": "Looking for an easy-going roommate to share a large, neat room. Water is free, power is stable, and the roommate preference is someone who does not bring lots of parties home.",
+    "photos": [
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["Water Supply", "Study Desk", "Quiet Zone"],
+    "isPublished": true,
+    "roommatePrefs": ["Female"],
+    "owner": {
+      "name": "Chidinma Egwu",
+      "gender": "Female",
+      "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=150&q=80",
+      "phone": "+234 802 777 6666",
+      "occupation": "Nursing Student"
+    },
+    "matchScore": 90
+  },
+  {
+    "id": "space-7",
+    "title": "Stunning Luxury Studio Flat",
+    "price": 160,
+    "area": "Lagos Campus",
+    "type": "Entire Studio Flat",
+    "description": "Super modern penthouse studio flat with glass sliding doors, private balcony overlooking the city, full air conditioning, private washing machine, and dedicated workspace.",
+    "photos": [
+      "https://images.unsplash.com/photo-1493809842364-78817add7ffb?auto=format&fit=crop&w=800&q=80",
+      "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=800&q=80"
+    ],
+    "amenities": ["WiFi", "AC", "Power Backup", "Washing Machine", "Balcony"],
+    "isPublished": true,
+    "roommatePrefs": ["Male", "Female", "Any"],
+    "owner": {
+      "name": "David Alao",
+      "gender": "Male",
+      "avatar": "https://images.unsplash.com/photo-1500048993953-d23a436266cf?auto=format&fit=crop&w=150&q=80",
+      "phone": "+234 811 888 7777",
+      "occupation": "Software Engineer Intern"
+    },
+    "matchScore": 96
+  }
+]
